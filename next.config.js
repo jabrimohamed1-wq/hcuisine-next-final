@@ -1,11 +1,6 @@
-/** @type {import('next').NextConfig} */
+﻿/** @type {import('next').NextConfig} */
 const nextConfig = {
-  reactStrictMode: true,
-  images: {
-    remotePatterns: [
-      { protocol: 'https', hostname: 'images.unsplash.com' },
-      { protocol: 'https', hostname: 'picsum.photos' },
-    ]
-  }
+  reactStrictMode: true
+  // Ne PAS définir distDir en '.next' ; laisser par défaut = '.next'
 };
 module.exports = nextConfig;
