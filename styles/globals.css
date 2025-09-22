@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  --primary: #000000;
+  --secondary: #FF8A00;
+  --text: #0B0B0B;
+  --muted: #6B6B6B;
+  --bg: #FFFFFF;
+  --section: #F5F6F8;
+}
+html, body, #__next { height: 100%; }
